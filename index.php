@@ -3,6 +3,8 @@
 		<title>Prueba de SantiagoB</title>
 	</head>
 	<body>
-		<?php echo '<p>Hola Mundo Santiago Bedoya</p>'; ?>
+		<?php
+		echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
+		?>
 	</body>
 </html>
